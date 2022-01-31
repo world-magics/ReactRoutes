@@ -1,0 +1,9 @@
+.main{
+  display: flex;
+  height: 780px;
+}
+.inside{
+  width: 100%;
+  padding: 25px 0;
+  background-color: #ccc;
+}

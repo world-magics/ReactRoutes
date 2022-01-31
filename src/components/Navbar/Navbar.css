@@ -1,0 +1,33 @@
+ul{
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkslategray;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logos img{
+    width: 40px;
+}
+a:hover{
+    color: red;
+    transition: .1s ease-in-out;
+    -webkit-transition: .1s ease-in-out;
+    -moz-transition: .1s ease-in-out;
+    -ms-transition: .1s ease-in-out;
+    -o-transition: .1s ease-in-out;
+}
+a::after{
+    width: 2px;
+    color: blue;
+}
+a::before:hover{
+    width: 2px;
+    color: blue;
+}
